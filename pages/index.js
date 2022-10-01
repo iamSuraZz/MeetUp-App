@@ -20,10 +20,6 @@ const DUMMY_MEETUPS = [
 ];
 
 const HomePage = () => {
-  return (
-    <div>
-      <MeetupList meetups={DUMMY_MEETUPS} />
-    </div>
-  );
+  return <MeetupList meetups={DUMMY_MEETUPS} />;
 };
 export default HomePage;
